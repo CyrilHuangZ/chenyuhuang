@@ -18,7 +18,10 @@ export default siteConfig({
 
   // social usernames (optional)
   //twitter: 'transitive_bs',
-  github: 'CyrilHuangZ',
+  mapMyVisitorsId:
+    process.env.NEXT_PUBLIC_MAPMYVISITORS_ID ??
+    'TwCWx7K_aqh_3W7deeUbIBFnCVm-Q4JKirx8P71Aaxo',
+  mapMyVisitorsStatsUrl: 'https://mapmyvisitors.com/web/1bzul',
   //linkedin: 'fisch2',
   // mastodon: '#', // optional mastodon profile URL, provides link verification
   // newsletter: '#', // optional newsletter URL

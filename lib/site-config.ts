@@ -17,6 +17,8 @@ export interface SiteConfig {
   youtube?: string
   zhihu?: string
   mastodon?: string
+  mapMyVisitorsId?: string | null
+  mapMyVisitorsStatsUrl?: string | null
 
   defaultPageIcon?: string | null
   defaultPageCover?: string | null

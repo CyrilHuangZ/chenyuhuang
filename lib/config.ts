@@ -63,6 +63,10 @@ export const youtube: string | undefined = getSiteConfig('youtube')
 export const linkedin: string | undefined = getSiteConfig('linkedin')
 export const newsletter: string | undefined = getSiteConfig('newsletter')
 export const zhihu: string | undefined = getSiteConfig('zhihu')
+export const mapMyVisitorsId: string | null =
+  getSiteConfig('mapMyVisitorsId', null)
+export const mapMyVisitorsStatsUrl: string | undefined =
+  getSiteConfig('mapMyVisitorsStatsUrl') ?? undefined
 
 export const getMastodonHandle = (): string | undefined => {
   if (!mastodon) {
