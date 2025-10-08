@@ -1,11 +1,9 @@
-import type { PageBlock } from 'notion-types'
-import type { NotionComponents } from 'react-notion-x'
-
 import cs from 'classnames'
 import dynamic from 'next/dynamic'
 import Image from 'next/legacy/image'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
+import type { PageBlock } from 'notion-types'
 import {
   formatDate,
   getBlockTitle,
@@ -14,7 +12,11 @@ import {
 } from 'notion-utils'
 import * as React from 'react'
 import BodyClassName from 'react-body-classname'
-import { NotionRenderer, useNotionContext } from 'react-notion-x'
+import {
+  NotionRenderer,
+  type NotionComponents,
+  useNotionContext
+} from 'react-notion-x'
 import { EmbeddedTweet, TweetNotFound, TweetSkeleton } from 'react-tweet'
 import { useSearchParam } from 'react-use'
 
