@@ -39,7 +39,7 @@ export function VisitorMap() {
     script.src = scriptSrc
     script.async = true
     script.id = 'mapmyvisitors'
-    container.appendChild(script)
+    container.append(script)
 
     return () => {
       container.innerHTML = ''
