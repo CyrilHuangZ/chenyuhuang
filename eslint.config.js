@@ -16,7 +16,9 @@ export default [
       'jsx-a11y/media-has-caption': 'off',
       'jsx-a11y/interactive-supports-focus': 'off',
       'jsx-a11y/anchor-is-valid': 'off',
-      '@typescript-eslint/naming-convention': 'off'
+      '@typescript-eslint/naming-convention': 'off',
+      'simple-import-sort/imports': 'off',
+      'simple-import-sort/exports': 'off'
     }
   }
 ]
