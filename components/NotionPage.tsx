@@ -1,10 +1,9 @@
-import { type PageBlock } from 'notion-types'
-
 import cs from 'classnames'
 import dynamic from 'next/dynamic'
 import Image from 'next/legacy/image'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
+import { type PageBlock } from 'notion-types'
 import {
   formatDate,
   getBlockTitle,
